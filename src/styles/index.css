@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Effra-Heavy';
+    src: local('Effra-Heavy'), url(../fonts/Effra-Heavy.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Effra-Medium';
+    src: local('Effra-Medium'), url(../fonts/Effra-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Effra-Light';
+    src: local('Effra-Light'), url(../fonts/Effra-Light.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Effra-Medium, sans-serif', sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
